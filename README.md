@@ -2,7 +2,7 @@
 This project aims to predict the price of used cars using a large dataset from Kaggle and GPU-accelerated machine learning models.
 
 📊 Dataset
-Source: 852K Used Car Listings
+Source: 1.2m Used Car Listings
 
 Format: CSV with features like Year, Mileage, Make, Model, City, State, and Price.
 
