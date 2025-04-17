@@ -66,7 +66,7 @@ This comprehensive visualization shows relationships between all variables with 
 - Correlation coefficients are displayed for each relationship
 
 ### Feature Distributions
-![Uploading __results___25_0.png…]()
+![__results___25_0](https://github.com/user-attachments/assets/859ebe35-de52-4a49-bba2-e47ff3642fbb)
 
 
 Key observations:
