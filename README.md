@@ -48,14 +48,34 @@ pip install kagglehub cudf cuml xgboost scikit-learn joblib
 
 ## 📈 Example Visualizations
 
-- 📍 Price vs Mileage
-- 📍 Price by Top 10 Makes
-- 📍 Correlation Matrix of Key Features
+### Correlation Matrix
+![Correlation Matrix](https://github.com/username/car-price-prediction/raw/main/images/correlation_matrix.png)
+
+This correlation matrix shows the relationships between key variables:
+- Strong negative correlation (-0.818) between Year and Mileage (newer cars have lower mileage)
+- Moderate positive correlation between Year and Price (newer cars tend to cost more)
+- Negative correlation (-0.331) between Mileage and Price (higher mileage typically means lower price)
+
+### Scatter and Density Plot
+![Scatter and Density Plot](https://github.com/username/car-price-prediction/raw/main/images/scatter_density_plot.png)
+
+This comprehensive visualization shows relationships between all variables with both scatter plots and distribution curves:
+- The diagonal shows distribution of each variable
+- Off-diagonal elements show relationships between pairs of variables
+- Correlation coefficients are displayed for each relationship
+
+### Feature Distributions
+![Feature Distributions](https://github.com/username/car-price-prediction/raw/main/images/feature_distributions.png)
+
+Key observations:
+- Year distribution shows most cars in the dataset are from 2012-2016
+- State distribution shows highest representation from FL, TX, and CA
+- Model distribution shows "LX" as the most common model designation
 
 ## 🧪 Evaluation Metrics
-The best Model is XGbost : 88
+
 - RMSE (Root Mean Squared Error)
-- R² Score 
+- R² Score
 
 ## 🧠 Prediction
 
@@ -69,4 +89,5 @@ Musab_Project_ML.ipynb        # Main notebook
 /scaler.joblib                # Scaler for feature normalization
 /xgb_model.joblib             # Trained XGBoost model
 /random_forest_model.joblib   # Trained Random Forest model
+/images/                      # Visualization images
 ```
