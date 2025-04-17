@@ -49,7 +49,7 @@ pip install kagglehub cudf cuml xgboost scikit-learn joblib
 ## 📈 Example Visualizations
 
 ### Correlation Matrix
-![Correlation Matrix](https://github.com/username/car-price-prediction/raw/main/images/correlation_matrix.png)
+![__results___17_0](https://github.com/user-attachments/assets/39d602db-29b5-449e-abd4-98de950191a1)
 
 This correlation matrix shows the relationships between key variables:
 - Strong negative correlation (-0.818) between Year and Mileage (newer cars have lower mileage)
@@ -57,7 +57,8 @@ This correlation matrix shows the relationships between key variables:
 - Negative correlation (-0.331) between Mileage and Price (higher mileage typically means lower price)
 
 ### Scatter and Density Plot
-![Scatter and Density Plot](https://github.com/username/car-price-prediction/raw/main/images/scatter_density_plot.png)
+![__results___19_0](https://github.com/user-attachments/assets/aa18639f-f726-40de-8234-5bd24b30c54a)
+
 
 This comprehensive visualization shows relationships between all variables with both scatter plots and distribution curves:
 - The diagonal shows distribution of each variable
@@ -65,7 +66,8 @@ This comprehensive visualization shows relationships between all variables with 
 - Correlation coefficients are displayed for each relationship
 
 ### Feature Distributions
-![Feature Distributions](https://github.com/username/car-price-prediction/raw/main/images/feature_distributions.png)
+![Uploading __results___25_0.png…]()
+
 
 Key observations:
 - Year distribution shows most cars in the dataset are from 2012-2016
